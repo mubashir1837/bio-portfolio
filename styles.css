@@ -150,7 +150,7 @@ CSS.g-6,
 }
 
 /* Projects */
-/* Styles for transparent glass-like background */
+
 .glass-box {
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
@@ -158,7 +158,7 @@ CSS.g-6,
   text-align: center;
 }
 
-/* Center text inside glass box */
+
 .glass-box h3,
 .glass-box p {
   margin: 0 auto;
@@ -197,6 +197,6 @@ CSS.g-6,
   padding: 20px;
   text-align: center;
   width: 60%;
-  margin: auto; /* Center the contact section horizontally */
+  margin: auto; 
   margin-top: 50px;
 }
