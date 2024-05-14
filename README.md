@@ -18,7 +18,7 @@ If you'd like to contribute to my portfolio website, you can follow these steps:
 1. **Fork** the repository.
 2. **Clone** the forked repository to your local machine:
     ```
-    git clone https://github.com/your-username/portfolio-website.git
+    git clone https://github.com/mubashir1837/space-portfolio.git
     ```
 3. Make your changes and enhancements.
 4. **Commit** your changes:
