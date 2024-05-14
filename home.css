@@ -7,10 +7,11 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
 /* Make the video fill the entire screen */
-#video-background {
+#home-background {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -61,39 +62,43 @@ body{
 .homesection h1 {
     font-size: 4em;
     margin: 10px 0;
-    color: rgb(128, 22, 143);
+    color: rgb(148, 22, 18);
     font-weight: bold;
+    opacity: 0.9;
 }
 
 
 .homesection h2 {
     font-size: 2em;
     margin: 10px 0;
-    color: white;
+    color: rgb(243, 236, 236);
     font-weight: bold;
     font-family: sans-serif;
+    opacity: 0.9;
 }
 
 .homesection p {
     font-size: 1em;
     margin-bottom: 20px;
-    color: white; 
+    color: white;
+    opacity: 0.9;
 }
 
 .homesection button {
     border-radius: 100px;
-    color: aliceblue;
-    background-color: rgb(117, 22, 148);
+    color: rgb(219, 227, 233);
+    background-color:  rgb(129, 19, 15);
     padding: 10px 20px;
     margin: 5px;
-    border: 2px solid white;
+    border: 2px solid rgb(219, 209, 209);
     font-size: 20px ;
+    opacity: 0.9;
 }
 
 .homesection button:hover{
-    background-color: white;
-    color: rgb(117, 22, 148);
-    border: 2px solid rgb(117, 22, 148);
+    background-color: rgb(217, 221, 224);
+    color: rgb(129, 19, 15);
+    border: 2px solid rgb(129, 19, 15);
 
 }
 /* Media query for smaller screens */
