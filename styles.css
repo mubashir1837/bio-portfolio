@@ -23,10 +23,14 @@ body {
   width: auto;
   height: auto;
   z-index: -1;
-} 
-
+}
 
 /* Skills */
+.container{
+  background-color: rgb(148, 42, 42);
+  opacity: 0.7;
+  border-radius: 30px;
+}
 CSS.g-6,
 .gx-6 {
   --bs-gutter-x: 4.5rem;
@@ -101,6 +105,7 @@ CSS.g-6,
 .w-95 {
   width: 95% !important;
 }
+
 @media (min-width: 576px) {
   .mb-sm-6 {
     margin-bottom: 4.5rem !important;
@@ -147,6 +152,12 @@ CSS.g-6,
   }
 }
 
+.education-box {
+  background-color: rgb(6, 10, 63);
+  padding: 3px;
+  opacity: 0.8;
+}
+
 .education-box img {
   max-width: 20%;
   height: auto;
@@ -168,7 +179,6 @@ CSS.g-6,
   padding: 20px;
   text-align: center;
 }
-
 
 .glass-box h3,
 .glass-box p {
@@ -208,6 +218,6 @@ CSS.g-6,
   padding: 20px;
   text-align: center;
   width: 60%;
-  margin: auto; 
+  margin: auto;
   margin-top: 50px;
 }
