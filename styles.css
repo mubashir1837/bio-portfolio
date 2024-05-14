@@ -167,7 +167,7 @@ CSS.g-6,
 .glass-box button {
   background-color: blueviolet;
   color: white;
-  border: 4px solid white; /* changed border shorthand to border: 4px solid white; */
+  border: 4px solid white;
   border-radius: 20px;
   margin-top: 10px;
 }
