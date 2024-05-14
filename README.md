@@ -6,7 +6,7 @@ Welcome to my portfolio website! This website showcases my projects, skills,  pr
 I am Mubashir Ali, a passionate designer and developer with a keen interest in creating user-centered digital experiences.
 
 ## Portfolio
-You can view my portfolio website [here](https://mubashir-ali.ver).
+You can view my portfolio website [here](https://mubashir-ali.vercel.app).
 
 ## Connect with Me
 - **GitHub**: [mubashir1837](http://github.com/mubashir1837/)
