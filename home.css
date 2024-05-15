@@ -1,21 +1,18 @@
 .navbar-nav .nav-link {
-    color:  white !important;
-}
+    color: white !important;
+  }
 
-.navbar{
+  .navbar {
     background-color: black;
-}
+  }
 
-
-
-body{
+  body {
     margin: 0;
     padding: 0;
     background-color: black;
-}
+  }
 
-
-#home-background {
+  #home-background {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -25,107 +22,99 @@ body{
     width: auto;
     height: auto;
     z-index: -1;
-}
+  }
 
-/* Content styling */
-.content {
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    color: white;
-    padding: 20px;
-}
-.button{
-    border-radius: 50%;
-}
-
-/* Default styles */
-.homesection {
+  .homesection {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    margin-top: 15%;
-}
-
-.homesection .content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-/* .homesection .content img {
-    max-width: 50%; /* Set maximum width for the images 
-} 
-*/
-
-
-
-
-.homesection h1 {
-    font-size: 4em;
-    margin: 10px 0;
-    color: rgb(168, 49, 192);
-    font-weight: bold;
-    opacity: 0.9;
-}
-
-
-.homesection h2 {
-    font-size: 2em;
-    margin: 10px 0;
-    color: rgb(243, 236, 236);
-    font-weight: bold;
-    font-family: sans-serif;
-    opacity: 0.9;
-}
-
-.homesection p {
-    font-size: 1em;
-    margin-bottom: 20px;
+    min-height: 100vh;
+    padding: 20px;
     color: white;
-    opacity: 0.9;
-}
+  }
 
-.homesection button {
-    border-radius: 100px;
-    color: rgb(219, 227, 233);
-    background-color: rgb(168, 49, 192);
+  .transparent-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .homesection h2 {
+    font-size: 2.5em;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #F3ECEC;
+  }
+
+  .homesection h1 {
+    font-size: 3em;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #A831C0;
+  }
+
+  .homesection p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+
+  .homesection .button {
+    border-radius: 30px;
+    background-color: #A831C0;
+    color: #DBE3E9;
     padding: 10px 20px;
-    margin: 5px;
-    border: 2px solid rgb(219, 209, 209);
-    font-size: 20px ;
-    opacity: 0.7;
-}
+    margin: 10px;
+    border: none;
+    font-size: 1em;
+    transition: background-color 0.3s, color 0.3s;
+  }
 
-.homesection button:hover{
-    background-color: rgb(217, 221, 224);
-    color:  rgb(187, 62, 156);
-    border: 2px solid  rgb(187, 62, 156);
+  .homesection .button:hover {
+    background-color: #D9DDE0;
+    color: #BB3E9C;
+  }
 
-}
-/* Media query for smaller screens */
-@media screen and (max-width: 768px) {
-    .homesection {
-        padding: 20px;
-    }
-}
-
-/* Media query for even smaller screens */
-@media screen and (max-width: 480px) {
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
     .homesection h1 {
-        font-size: 1.5em;
+      font-size: 2.5em;
+    }
+
+    .homesection h2 {
+      font-size: 2em;
     }
 
     .homesection p {
-        font-size: 0.9em;
+      font-size: 1em;
     }
 
-    .homesection button {
-        padding: 8px 16px;
+    .homesection .button {
+      font-size: 0.9em;
+      padding: 8px 16px;
     }
-}
+  }
 
+  /* Media query for even smaller screens */
+  @media screen and (max-width: 480px) {
+    .homesection h1 {
+      font-size: 2em;
+    }
 
+    .homesection h2 {
+      font-size: 1.5em;
+    }
 
+    .homesection p {
+      font-size: 0.9em;
+    }
+
+    .homesection .button {
+      font-size: 0.8em;
+      padding: 6px 12px;
+    }
+  }
