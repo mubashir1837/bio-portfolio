@@ -65,7 +65,7 @@
 
   .homesection .button {
     border-radius: 30px;
-    background-color: #A831C0;
+    background-color: #302a81;
     color: #DBE3E9;
     padding: 10px 20px;
     margin: 10px;
@@ -76,7 +76,7 @@
 
   .homesection .button:hover {
     background-color: #D9DDE0;
-    color: #BB3E9C;
+    color: #302a81;
   }
 
   /* Media query for smaller screens */

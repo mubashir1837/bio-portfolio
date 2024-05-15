@@ -5,16 +5,11 @@ body {
   padding: 0;
 }
 
-#about-background {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  min-width: 150%;
-  min-height: 150%;
-  width: auto;
-  height: auto;
-  z-index: -1;
+.about-section {
+  position: relative;
+  background: url('img/bio.jpg') no-repeat center center fixed;
+  background-size: cover;
+  padding: 50px 0;
 }
 
 .transparent-box {
