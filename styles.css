@@ -189,7 +189,7 @@ CSS.g-6,
 }
 
 .glass-box button {
-  background-color: blueviolet;
+  background-color: rgb(230, 120, 17);
   color: white;
   border: 4px solid white;
   border-radius: 20px;
@@ -197,9 +197,9 @@ CSS.g-6,
 }
 
 .glass-box button:hover {
-  background-color: white;
-  color: blueviolet;
-  border: 4px solid blueviolet;
+  background-color: rgb(216, 166, 27);
+  color: rgb(226, 234, 236);
+  border: 4px solid rgb(226, 234, 236);
 }
 
 /* Responsive adjustments */

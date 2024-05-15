@@ -12,12 +12,12 @@
 
 <body>
     <img src="img/sun.gif" alt="Computer man" id="gif-background">
-    <a class="nav-link" href="index.html"><i class="fa fa-home" style="color: rgb(128, 21, 150);"></i></a>
-    <section id="projects" class="container py-5">
+    <a class="nav-link" href="index.html"><i class="fa fa-home" style="color: rgb(211, 139, 32);"></i></a>
+    <section id="projects" class="project-container py-5">
         <h2 class="text-center mb-4 text-light">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
+        <div class="b-container text-center">
+            <div class="row justify-content-center"> <!-- Added justify-content-center here -->
+                <div class="col-md-3">
                     <div class="glass-box text-light">
                         <h3>Calculator</h3>
                         <p>This is a Calculator design with nextjs.</p>
@@ -26,7 +26,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="glass-box text-light">
                         <h3>Food kivi</h3>
                         <p>This project shows food ordering website.</p>
@@ -35,7 +35,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="glass-box text-light">
                         <h3>Text Analyzer</h3>
                         <p>This is text analyzer website.</p>
@@ -48,7 +48,9 @@
         </div>
     </section>
 
-    <!-- Bootstrap JS (optional) -->
+    <!-- Include jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
