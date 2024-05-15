@@ -154,9 +154,10 @@ CSS.g-6,
 }
 
 .education-box {
-  background-color: rgb(15, 26, 90);
+  background-color: rgb(8, 18, 70);
   padding: 3px;
   opacity: 0.8;
+  border-radius: 20px;
 }
 
 .education-box img {
