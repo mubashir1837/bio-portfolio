@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: navy;
+}
+
+.skills-section {
+    position: relative;
+    background: url('img/bio.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.transparent-box {
+    background-color: rgba(0, 0, 0, 0.658);
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.skill-container {
+    margin-bottom: 30px;
+}
+
+.text-light {
+    color: #fff !important;
+}
+
+.progress-bar {
+    background-color: #187296;
+}
+
+.button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
