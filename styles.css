@@ -28,10 +28,11 @@ body {
 
 /* Skills */
 .container{
-  background-color: rgb(148, 42, 42);
-  opacity: 0.7;
+  background-color: rgb(173, 26, 26);
+  opacity: 0.6;
   border-radius: 30px;
 }
+
 CSS.g-6,
 .gx-6 {
   --bs-gutter-x: 4.5rem;
