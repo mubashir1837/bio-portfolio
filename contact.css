@@ -1,0 +1,34 @@
+.glass-box {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-box:hover {
+    background: rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+}
+
+.contact__option {
+    padding: 20px;
+}
+
+.contact__option h4 {
+    margin-bottom: 10px;
+}
+
+.contact__option-icon {
+    margin-bottom: 20px;
+}
+
+#gif-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
