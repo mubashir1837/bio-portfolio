@@ -11,6 +11,9 @@
     padding: 0;
     background-color: black;
   }
+.button{
+  border-radius: 50px;
+}
 
   #home-background {
     position: fixed;
