@@ -5,17 +5,12 @@ body {
   color: white;
   font-family: Arial, sans-serif;
 }
-.nav-link {
-  position: fixed;
-  top: 10px;
-  left: 10px;
+#projects h2{
+    font-size: 50px;
+    font-weight: 800;
 }
-/* #projects {
-    padding: 100px 0;
-    margin-top: 50px;
-} */
 .glass-box {
-  background: rgba(43, 40, 40, 0.2);
+  background: rgba(255, 255, 255, 0.2);
   border-radius: 15px;
   padding: 20px;
   margin: 20px 0;
@@ -32,7 +27,7 @@ body {
   margin-bottom: 15px;
 }
 .glass-box button {
-  background-color: #205fd3;
+  background-color: #156f99;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -42,10 +37,6 @@ body {
   border-radius: 50px;
 }
 .glass-box button:hover {
-  background-color: #1c51b3;
+  background-color: #1c6ab3;
 }
 
-#projects h2 {
-  font-size: 50px;
-  font-weight: 800;
-}
