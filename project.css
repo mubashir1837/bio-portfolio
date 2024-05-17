@@ -1,0 +1,51 @@
+body {
+  background-image: url("img/bio.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+.nav-link {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+/* #projects {
+    padding: 100px 0;
+    margin-top: 50px;
+} */
+.glass-box {
+  background: rgba(43, 40, 40, 0.2);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.glass-box h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.glass-box p {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+.glass-box button {
+  background-color: #205fd3;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 50px;
+}
+.glass-box button:hover {
+  background-color: #1c51b3;
+}
+
+#projects h2 {
+  font-size: 50px;
+  font-weight: 800;
+}
