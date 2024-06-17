@@ -25,6 +25,7 @@
     width: auto;
     height: auto;
     z-index: -1;
+    opacity: 50;
   }
 
   .homesection {
